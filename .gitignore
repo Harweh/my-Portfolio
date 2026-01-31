@@ -41,3 +41,71 @@ yarn-error.log*
 next-env.d.ts
 
 .env
+
+
+
+
+// import { FaReact } from 'react-icons/fa';
+// import { SiAuth0, SiGoogleauthenticator, SiJson, SiMongoose, SiNextdotjs, SiOcaml } from 'react-icons/si';
+// import { SiTailwindcss } from 'react-icons/si';
+// import { SiTypescript } from 'react-icons/si';
+// import { SiCss3 } from 'react-icons/si';
+// import { SiNodedotjs } from 'react-icons/si';
+// import { SiExpress } from 'react-icons/si';
+// import { SiMongodb } from 'react-icons/si';
+
+
+
+
+                         <h1 className='flex gap-4'>
+                            <SiNextdotjs className="text-2xl text-black dark:text-white" />
+                                Next.js (App Router)
+                        </h1>
+                        <h1 className='flex gap-4 '>
+                            <FaReact className="text-3xl text-blue-400"  />
+                                React
+                        </h1>
+                        <h1 className='flex gap-4'>
+                            <SiTailwindcss className="text-2xl text-blue-700 dark:text-white" />
+                                Tailwind CSS
+                        </h1>
+                        <h1 className='flex gap-4'>
+                            <SiTypescript className="text-2xl text-blue-500 dark:text-white" />
+                                TypeScript
+                        </h1>
+                        <h1 className='flex gap-4'>
+                            <SiCss3 className="text-2xl bg-orange-900 dark:text-white" />
+                                CSS3
+                        </h1>
+
+
+
+                        <h1 className='flex gap-4'>
+                            <SiNodedotjs className="text-2xl text-black dark:text-white" />
+                                Node.js
+                        </h1>
+                        <h1 className='flex gap-4'>
+                            <SiNextdotjs className="text-2xl text-black dark:text-white" />
+                                Next.js (App Router)
+                        </h1>
+                        <h1 className='flex gap-4'>
+                            <SiExpress className="text-2xl text-black dark:text-white" />
+                                Express.js
+                        </h1>
+                        <h1 className='flex gap-4'>
+                            <SiMongodb className="text-2xl text-black dark:text-white" />
+                                MongoDB
+                        </h1>
+                        <h1 className="flex gap-4">
+                            <SiAuth0 className="text-2xl text-black dark:text-white" />
+                                Auth0
+                        </h1>
+
+
+                         <div className="flex flex-col gap-4">
+                   
+                        
+                    </div>
+
+
+               

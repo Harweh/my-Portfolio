@@ -54,7 +54,7 @@ const Footer = () => {
                             <a href="https://mail.com/"
                             target="_blank"
                             rel="noonpener noreferrer"
-                            className="text-white hover:text-black transition-colors"
+                            className="text-g hover:text-black transition-colors"
                             >
                                 <Mail size={20} />
                             </a>
@@ -97,7 +97,7 @@ const Footer = () => {
                 <div className="mt-12 pt-8 border-t border-gray-800">
                     <div className="flex flex-col md:flex-row justify-between items-center">
                         <p className="text-gray-400 text-sm">
-                            @{2026} Awe Emmanuel Olluwatobi. All rights reserved.
+                            @{2026} Emmanuel Oluwatobi Awe. All Rrights Reserved.
                         </p>
                         <div className="flex space-x-6 mt-4 md:mt-0">
                             <Link href="/privacy" 

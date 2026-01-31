@@ -64,11 +64,11 @@ export default function Navbar() {
                     {/* Cta button - desktop */}
                     <div className="hidden md:flex items-center">
                         <Link
-                        href="/conntact"
-                        className='relative px-6 py-2.5 bg-gradient-to-r from-black-500 to bg-green-500 to-black text-white front-medium rounded-lg overflow-hidden group hover:from-pink-400'>
-                            <span className="relative z-10">Get in Touch</span>
-                            {/* shinning effect */}
-                            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[-100%] transition duration-700"></div>
+                            href="/conntact"
+                            className='relative px-6 py-2.5 bg-gradient-to-r from-black-500 to bg-green-500 to-black text-white front-medium rounded-xl overflow-hidden group hover:from-pink-400'>
+                                <span className="relative z-10">Get in Touch</span>
+                                {/* shinning effect */}
+                                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[-100%] transition duration-700"></div>
                         </Link>
                     </div>
 
@@ -82,7 +82,7 @@ export default function Navbar() {
             </div>
 
             {/* mobile menu */}
-                        <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100" : "max-h0 opacity-0"}`}>
+                        <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`}>
                             <div className="px-4 pt-2 pb-6 space-y-2 bg-gray-900/95 backddrop-blur-lg borger-t border-gray-800">
                                 {navLinks.map((link) => (
                                     <Link

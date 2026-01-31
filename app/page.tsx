@@ -12,7 +12,7 @@ export default function Home() {
             </div> */}
 
             {/* Main Content */}
-            <div className="relative z-10 flex item-center justify-center min-h-screen px-4 pt-20">
+            <div className="relative z-10 flex item-center justify-center min-h-screen px-4 pt-120">
                 <div className="max-w-5xl w-full text-center space-y-8">
 
                     {/* welcome Badge */}
@@ -68,7 +68,7 @@ export default function Home() {
                         <Link href="/contact" 
                             className="group px-8 py-4 bg-white/5 backdrop-blur-lg border-2 border-white/10 text-white font-semibold rounded-xl hover:border-white/20 transition-all">
                             <span className="relative z-10 flex items-center gap-2">
-                                Get in Touch
+                                Connect with me
                                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform"/>
                             </span>
                         </Link>
